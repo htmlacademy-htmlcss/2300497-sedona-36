@@ -88,19 +88,16 @@
       <section class="recommendations">
         <ul class="recommendations-list">
           <li class="recommendations-item">
-            <img src="#" alt="Жильё.">
             <h3 class="recommendations-title">Жильё</h3>
             <p class="recommendations-description">Рекомендуем пожить в настоящем мотеле,
               всё как в кино!</p>
           </li>
           <li class="recommendations-item">
-            <img src="#" alt="Еда.">
             <h3 class="recommendations-title">Еда</h3>
             <p class="recommendations-description">Всегда заказывайте
               топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="recommendations-item">
-            <img src="#" alt="Сувениры.">
             <h3 class="recommendations-title">Сувениры</h3>
             <p class="recommendations-description">Не только китайского,
               но и настоящего местного производства!</p>
@@ -112,7 +109,6 @@
         <p class="hotel-proposal">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
           гостиниц в Седоне</p>
         <button type="button"> Поиск гостиницы в Седоне
-          <!-- тут Popup форма -->
         </button>
       </section>
     </main>
@@ -120,9 +116,11 @@
       <section class="mailing">
         <h2 class="mailing-text">Подпишитесь на рассылку</h2>
         <p class="mailing-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form method="post" action="#">
-          <input type="text" name="e-mail" value="Ваш e-mail">
-          <input type="submit" value="Подписаться">
+        <form method="post" action="https://echo.htmlacademy.ru">
+          <label>
+            <input type="text" name="e-mail" placeholder="Ваш e-mail" required>
+          </label>
+          <button type="button">Подписаться</button>
         </form>
       </section>
       <nav class="true-footer">
@@ -144,6 +142,7 @@
         </a>
       </nav>
     </footer>
+              <!-- тут Popup форма -->
   </body>
 
 </html>
