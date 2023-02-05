@@ -206,7 +206,8 @@ body {
   line-height: 26px;
 }
 
-.advantages-item .advantages-title {           /*Как лучше, тег с классом ..-title в теге с классом ..-item или в теге с классом ..-list*/
+.advantages-item .advantages-title {
+  /*Как лучше, тег с классом ..-title в теге с классом ..-item или в теге с классом ..-list*/
   font-family: "PT sans";
   font-style: normal;
   font-weight: 700;
@@ -214,7 +215,8 @@ body {
   line-height: 28px;
 }
 
-.advantages-item .advantages-description {    /*Аналогично*/
+.advantages-item .advantages-description {
+  /*Аналогично*/
   font-family: "PT sans";
   font-style: normal;
   font-weight: 400;
@@ -270,7 +272,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
-                                    /*В этих двух селекторах можно было задать одинаковые классы (у тегов)
+
+/*В этих двух селекторах можно было задать одинаковые классы (у тегов)
                                     с content-text и -title и задать всем в двух селекторах свойства ( без уточнения второго класса ), тк там все одинаково
                                     но думаю, если, например, заказчик попросит поменять св-ва текста в одном из этих блоков, придется прописывать доп. классы
                                     а так просто поменять значения и не изменять сам селектор*/
@@ -305,6 +308,8 @@ body {
 
 }
 
+/*---------------------FOOTER---------------------*/
+
 .content {
   text-align: center;
   color: #ffffff;
@@ -313,15 +318,52 @@ body {
   background-size: 100% auto;
 }
 
-/*---------------------FOOTER---------------------*/
+.content .content-title {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.content .content-text {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.submit {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  color: #ffffff;
+}
+
+.submit:hover {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #98beda;
+  border-radius: 0px 4px 4px 0px;
+  color: #ffffff;
+}
 
 .footer-links {
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
   margin: 60px;
-
-
 }
 
 .social-network-item {
