@@ -9,37 +9,37 @@
 
   <body>
     <header class="header-page">
-      <a href="index.html" class="header-link">
+      <a href="index.html" class="header-logo-link">
         <img src="images/logo.svg" width="140" height="70" alt="Лого городка Седона.">
       </a>
       <nav class="header-navigation">
         <ul class="header-list">
           <li class="header-item">
-            <a>Главная</a>
+            <a class="header-link">Главная</a>
           </li>
           <li class="header-item">
-            <a href="#!">О Седоне</a>
+            <a class="header-link" href="#!">О Седоне</a>
           </li>
           <li class="header-item">
-            <a href="#!">Гостиницы</a>
+            <a class="header-link" href="#!">Гостиницы</a>
           </li>
         </ul>
         <ul class="user-list">
           <li class="user-item">
-            <a class="navigation-link" href="#!">
+            <a class="user-link user-link-search" href="#!">
               <span class="visually-hidden">
                 Поиск.
               </span>
             </a>
           </li>
           <li class="user-item">
-            <a class="user-link" href="#!">
+            <a class="user-link user-link-like" href="#!">
               <span class="visually-hidden">Избранное:</span>
               <span class="user-count">12</span>
             </a>
           </li>
           <li class="user-item">
-            <a class="user-link" href="#!">Хочу сюда</a>
+            <a class="user-link user-link-button" href="#!">Хочу сюда</a>
           </li>
         </ul>
       </nav>
@@ -47,7 +47,8 @@
     <main class="main-page">
       <header class="hero">
         <h1 class="visually-hidden">О Седоне.</h1>
-        <img src="images/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img src="images/welcome.svg" width="458" height="352"
+          alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
       </header>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества.</h2>
@@ -100,7 +101,8 @@
       <section class="hotels-search">
         <h2 class="visually-hidden">Поиск отелей.</h2>
         <b class="hotels-question">Заинтересовались?</b>
-        <p class="hotels-proposal">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p class="hotels-proposal">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+          Седоне</p>
         <button class="button button-big" type="button">Поиск гостиницы в Седоне</button>
       </section>
     </main>
@@ -116,21 +118,23 @@
           <button type="submit">Подписаться</button>
         </form>
       </section>
-      <ul class="social-network">
-        <li class="social-network-item">
-          <a class="social-network-link-wk" href="https://vk.com/htmlacademy"><span class="visually-hidden">Вк.</span></a>
-        </li>
-        <li class="social-network-item">
-          <a class="social-network-link-telegram" href="https://t.me/htmlacademy "><span class="visually-hidden">Телеграм.</span></a>
-        </li>
-        <li class="social-network-item">
-          <a class="social-network-link-YouTube" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">YouTube.</span></a>
-        </li>
-      </ul>
-      <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a href="https://htmlacademy.ru" class="html-academy-link">
-        <img src="images/htmlacademy-logo.svg" width="114.9" height="32.9" alt="Логотип HTML Academy">
-      </a>
+      <section class="footer-links">
+        <ul class="social-network">
+          <li class="social-network-item">
+            <a class="social-network-link wk" href="https://vk.com/htmlacademy"><span class="visually-hidden">Вк.</span></a>
+          </li>
+          <li class="social-network-item">
+            <a class="social-network-link telegram" href="https://t.me/htmlacademy "><span class="visually-hidden">Телеграм.</span></a>
+          </li>
+          <li class="social-network-item">
+            <a class="social-network-link YouTube" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">YouTube.</span></a>
+          </li>
+        </ul>
+        <a class="tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a href="https://htmlacademy.ru" class="html-academy-link">
+          <img src="images/htmlacademy-logo.svg" width="114.9" height="32.9" alt="Логотип HTML Academy">
+        </a>
+      </section>
     </footer>
     <!-- тут Popup форма -->
   </body>

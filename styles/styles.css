@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family:"PT Sans" ;
   font-style: normal;
   font-weight: 400;
@@ -41,4 +41,174 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
+}
+*/
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format(woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format(woff2);
+  font-display: swap;
+}
+
+  @font-face {
+    font-family: "PT sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    font-display: swap;
+  }
+
+
+body {
+  font-family: "PT sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #ffffff;
+
+}
+
+.header-page {
+  background-color: blue;
+}
+
+.header-link{
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.user-link-button {
+  font-size: 16px;
+  line-height: 20px;
+  color: aqua;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.user-link-search {
+  background-image: url(../images/search.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.user-link-like {
+  background-image: url(../images/like.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: white;
+}
+
+
+.hero {
+
+  background: url(../images/index-background.jpg) no-repeat center;
+  margin: 0%;
+  padding: 0%;
+  background-color: #242424;
+  background-size: 100% auto;
+  text-align: center;
+  background-attachment: fixed;
+
+}
+
+.advantages {
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+}
+
+.hotels-search {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  color: #ffffff;
+  background: url(../images/footer-background.jpg) no-repeat top center;
+  background-color: #242424;
+  background-size: 100% auto;
+}
+
+.content-teased {
+
+
+
+}
+
+.footer-links {
+  display:flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin: 60px;
+
+
+}
+
+.social-network-item {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  margin: 0%;
+}
+
+.tel {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.html-academy-link {
+  width: 114.9px;
+  height: 32.9px;
+}
+
+.wk {
+  background-image: url(../images/wk.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.telegram {
+  background-image: url(../images/telegram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.YouTube {
+  background-image: url(../images/YT.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
