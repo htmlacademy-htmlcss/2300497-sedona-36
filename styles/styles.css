@@ -1,89 +1,49 @@
+
 @font-face {
-  font-family: "PT sans";
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/ptsans-400.woff2) format(woff2);
+  src: url("../fonts/ptsans-400.woff2") format(woff2);
   font-display: swap;
 }
 
 @font-face {
-  font-family: "PT sans";
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/ptsans-700.woff2) format(woff2);
+  src: url("../fonts/ptsans-700.woff2") format(woff2);
   font-display: swap;
 }
 
-@font-face {
-  font-family: "PT sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/ptsans-400.woff2) format(woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url(../fonts/ptsans-400.woff2) format(woff2);
-  font-display: swap;
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5%;
+  color: #242424;
+  background-color: #ffffff;
 }
 
 /*---------------------HEADER---------------------*/
-body {
-  font-family: "PT sans", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: #242424;
-  background-color: #ffffff;
-
-}
-
-/*
-.header-page {
+.header-page .header-item{
   display:flex;
-  justify-content: baseline;
   vertical-align: middle;
-
+  align-items: flex-start;
 }
-
-.header-navigation {
-  display:flex;
-  justify-content: space-between;
-  vertical-align: middle;
-}
-                                                                До конца не разобрался еще, лучше оставлю так
-
-.header-item {
-  display: inline;
-  text-align: left;
-  margin: 0%;
-}
-
-.user-item {
-  display: inline;
-  text-align: right;
-  margin: 0%;
-}
-*/
 
 .header-link {
-  font-family: "PT sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: inherit;
-  text-align: center;
   text-decoration: none;
-
 }
 
-.user-link-button {
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
+
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,274 +51,150 @@ body {
   border-radius: 4px;
 }
 
-.user-link-button:hover {
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
+.button:hover {
   background-color: #927c71;
-  border-radius: 4px;
+}
+
+.user-link {
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .user-link-search {
   background-image: url(../images/search.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .user-link-like {
   background-image: url(../images/like.svg);
-  background-position: center;
-  background-repeat: no-repeat;
   text-decoration: none;
-  color: white;
+
 }
 
 .user-count {
   font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
   font-size: 10px;
   line-height: 10px;
-  background-color: #7DB54F;
+  color: #ffffff;
+  background-color: #7db54f;
   border-radius: 10px;
-  background-size: 20px 20px;
 }
 
 /*---------------------MAIN---------------------*/
 
 .hero {
 
-  background: url(../images/index-background.jpg) no-repeat center;
-  margin: 0%;
-  padding: 0%;
+  background-image: url(../images/index-background.jpg);
+  background-color: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
   background-color: #242424;
-  background-size: 100% auto;
-  text-align: center;
-  background-attachment: scroll;
-
 }
 
-.advantages {
+.main-page {
   text-align: center;
 }
 
-.advantages .content-title {
-  font-family: "PT sans";
-  font-style: normal;
+.content-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
 
-.advantages .content-text {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
+.content-text {
   font-size: 22px;
   line-height: 26px;
 }
 
-.advantages-item .advantages-title {
-  /*Как лучше, тег с классом ..-title в теге с классом ..-item или в теге с классом ..-list*/
-  font-family: "PT sans";
-  font-style: normal;
+.block-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.advantages-item .advantages-description {
-  /*Аналогично*/
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
+.block-description {
   font-size: 18px;
   line-height: 21px;
 }
 
-.services {
-  text-align: center;
-}
-
-.services .content-title {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-}
-
-.services .content-text {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-}
-
-.services .services-title {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.services .services-description {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.hotels-search {
-  text-align: center;
-}
-
-.hotels-question {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-
-/*В этих двух селекторах можно было задать одинаковые классы (у тегов)
-                                    с content-text и -title и задать всем в двух селекторах свойства ( без уточнения второго класса ), тк там все одинаково
-                                    но думаю, если, например, заказчик попросит поменять св-ва текста в одном из этих блоков, придется прописывать доп. классы
-                                    а так просто поменять значения и не изменять сам селектор*/
-.hotels-proposal {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-}
-
-.button {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
+.question {
   text-transform: uppercase;
 }
 
 .button-big {
-  color: #ffffff;
-  background-color: #756157;
-  border-radius: 4px;
-
-}
-
-.button-big:hover {
-  color: #ffffff;
-  background-color: #927c71;
-  border-radius: 4px;
-
+  font-size: 20px;
+  line-height: 36px;
 }
 
 /*---------------------FOOTER---------------------*/
 
-.content {
+.content-teased {
   text-align: center;
   color: #ffffff;
-  background: url(../images/footer-background.jpg) no-repeat top center;    /*Не совсем понял, как растянуть изображение как в hero*/
+  background-image: url(../images/footer-background.jpg);
   background-color: #242424;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.content .content-title {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+.subscribe {
   text-transform: uppercase;
 }
 
-.content .content-text {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
-}
-
 .submit {
-  font-family: "PT sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   background-color: #82B3D3;
   border-radius: 0px 4px 4px 0px;
-  color: #ffffff;
+  color: inherit;
 }
 
 .submit:hover {
-  font-family: "PT sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  text-transform: uppercase;
   background-color: #98beda;
-  border-radius: 0px 4px 4px 0px;
-  color: #ffffff;
 }
 
 .footer-links {
   display: flex;
   justify-content: space-between;
-  vertical-align: middle;
+  align-items: middle;
   margin: 60px;
 }
 
-.social-network-item {
-  display: inline;
-  text-align: center;
+.social-network .social-network-item {
+  display: flex;
   text-decoration: none;
-  margin: 0%;
+}
+
+.social-network-link {
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .tel {
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   text-decoration: none;
-  color: #242424;
+  color: inherit;
 }
 
-.html-academy-link {
-  width: 114.9px;
-  height: 32.9px;
-}
-
-.wk {
-  background-image: url(../images/wk.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+.vk {
+  background-image: url(../images/vk.svg);
 }
 
 .telegram {
   background-image: url(../images/telegram.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.YouTube {
+.youtube {
   background-image: url(../images/YT.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: fixed;
+  transform: scale(0);
 }
