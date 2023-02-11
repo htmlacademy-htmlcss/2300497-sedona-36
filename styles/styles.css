@@ -86,6 +86,7 @@ body {
 
 .button-header {
   padding: 8px 34px;
+  width: 160px
 }
 
 .user-link {
@@ -121,7 +122,7 @@ body {
   background-color: inherit;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   text-align: center;
   color: #ffffff;
   background-color: #242424;
@@ -142,6 +143,29 @@ body {
 width: 620px;
 }
 
+.advantages {
+  height: 1154px;
+  margin-bottom:  126px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap:wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.advantages-item-wide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages-item {
+  width: 400px;
+  height: 385px;
+}
 
 .content-text {
   font-size: 22px;
@@ -152,6 +176,8 @@ width: 620px;
   display: flex;
   list-style: none;
   vertical-align: middle;
+  margin: 0;
+  padding: 0;
 }
 
 .services-item {
@@ -160,6 +186,10 @@ width: 620px;
   padding: 81px 85px;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.services-item-color {
+  background: rgba(131, 179, 211, 0.12);
 }
 
 .advices {
@@ -250,7 +280,7 @@ width: 620px;
 
 .social-network {
   display: flex;
-  justify-content: flex-start ;
+  justify-content:space-between;
   width: 142px;
   list-style: none;
   padding: 0;
