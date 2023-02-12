@@ -146,6 +146,7 @@ width: 620px;
 .advantages {
   height: 1154px;
   margin-bottom:  126px;
+  width: inherit;
 }
 
 .advantages-list {
@@ -154,18 +155,31 @@ width: 620px;
   padding: 0;
   margin: 0;
   list-style: none;
+  width:inherit;
 }
 
 .advantages-item-wide {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin: 0;
+  width: 1200px;
+}
+
+.item-wide-reverse {
+  flex-direction: row-reverse;
+}
+
+.wide-photo {
+  margin: 101.2px 85px;
 }
 
 .advantages-item {
   width: 400px;
   height: 385px;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-text {
@@ -209,11 +223,15 @@ width: 620px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  width: 230px;
+  height: 28px;
 }
 
 .block-description {
   font-size: 18px;
   line-height: 21px;
+  width: 230px; ;
+  height: 63px;
 }
 
 .hotels-search {
