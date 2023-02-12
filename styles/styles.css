@@ -165,6 +165,7 @@ width: 620px;
 .advantages-item {
   width: 400px;
   height: 385px;
+  align-content: center;
 }
 
 .content-text {
@@ -246,9 +247,13 @@ width: 620px;
   background-image: url(../images/footer-background.jpg);
   background-color: #242424;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  padding: 96px 258px 104px 258px;
+  padding: 258px 258px 104px 258px;
+}
+
+.subscribe-text {
+  margin-bottom: 54px;
+  padding-bottom: 54px;
 }
 
 .subscribe {
@@ -256,17 +261,33 @@ width: 620px;
 }
 
 .submit {
+  display: flex;
+}
+
+.input {
+  border-style: none;
+  border-radius: 4px 0px 0px 4px;
+  background-color: #f2f2f2;
+  width: 452px;
+  height: 50px;
+}
+
+.submit-button {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
   background-color: #82B3D3;
   border-radius: 0px 4px 4px 0px;
   color: inherit;
   border-style: none;
+  padding: 8px 50px 8px 40px;
+  width: 232px;
+  height: 52px;
 }
 
-.submit:hover {
+.submit-button:hover {
   background-color: #98beda;
 }
 
