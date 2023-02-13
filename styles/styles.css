@@ -17,7 +17,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5%;
+  line-height: 1.5;
   color: #242424;
   background-color: #ffffff;
   width: 1200px;
@@ -96,14 +96,14 @@ body {
 }
 
 .user-link-search {
-  background-image: url(../images/search.svg);
+  background-image: url("../images/search.svg");
 }
 
 .user-link-like {
-  background-image: url(../images/like.svg);
+  background-image: url("../images/like.svg");
   text-decoration: none;
   margin-right: 8px;
- }
+}
 
 .user-count {
   font-family: "PT sans";
@@ -117,12 +117,9 @@ body {
 /*---------------------MAIN---------------------*/
 
 .hero {
-
-  background-image: url(../images/index-background.jpg);
-  background-color: inherit;
+  background-image: url("../images/index-background.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   text-align: center;
   color: #ffffff;
   background-color: #242424;
@@ -141,8 +138,7 @@ body {
 
 .advantages {
   height: 1154px;
-  margin-bottom:  126px;
-  width: inherit;
+  margin-bottom: 126px;
   padding-bottom: 159px;
 }
 
@@ -153,18 +149,17 @@ body {
 
 .advantages-list {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   padding: 0;
   list-style: none;
-  width:inherit;
 }
 
 .advantages-item-wide {
   display: flex;
   align-items: center;
   margin: 0;
-  width: 1200px;
-  background-color:  #82b3d3;
+  width: 100%;
+  background-color: #82b3d3;
   color: #ffffff;
 }
 
@@ -181,16 +176,11 @@ body {
 }
 
 .wide-photo {
-  margin: 101.2px 85px;
+  padding: 101.2px 85px;
 }
 
 .advantages-item {
-  width: 400px;
-  height: 385px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 112.5px 85px 112.5px;
 }
 
 .content-text {
@@ -235,22 +225,18 @@ body {
   font-size: 24px;
   line-height: 28px;
   width: 230px;
-  height: 28px;
 }
 
 .block-description {
   font-size: 18px;
   line-height: 21px;
-  width: 230px; ;
+  width: 230px;
+  ;
   height: 63px;
 }
 
 .hotels-search {
   padding: 96px 304px;
-}
-
-.question {
-  text-transform: uppercase;
 }
 
 .button-big {
@@ -261,50 +247,45 @@ body {
 
 /*---------------------FOOTER---------------------*/
 
-.content-teased {
+.content {
   text-align: center;
-  color: #ffffff;
-  background-image: url(../images/footer-background.jpg);
-  background-color: #242424;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding: 258px 258px 104px 258px;
 }
 
-.subscribe-text {
-  margin-bottom: 54px;
-  padding-bottom: 54px;
-}
-
-.subscribe {
-  text-transform: uppercase;
+.content-teased {
+  color: #ffffff;
+  background-image: url("../images/footer-background.jpg");
+  background-color: #242424;
+  background-size: cover;
 }
 
 .submit {
   display: flex;
+  align-items: center;
 }
 
 .input {
   border-style: none;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
   width: 452px;
   height: 50px;
 }
 
 .submit-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  background-color: #82B3D3;
-  border-radius: 0px 4px 4px 0px;
-  color: inherit;
+  background-color: #82b3d3;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
   border-style: none;
   padding: 8px 50px 8px 40px;
   width: 232px;
-  height: 52px;
+  height: 50px;
 }
 
 .submit-button:hover {
@@ -321,7 +302,7 @@ body {
 
 .social-network {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 142px;
   list-style: none;
   padding: 0;
@@ -340,15 +321,15 @@ body {
 }
 
 .vk {
-  background-image: url(../images/vk.svg);
+  background-image: url("../images/vk.svg");
 }
 
 .telegram {
-  background-image: url(../images/telegram.svg);
+  background-image: url("../images/telegram.svg");
 }
 
 .youtube {
-  background-image: url(../images/YT.svg);
+  background-image: url("../images/YT.svg");
 }
 
 .visually-hidden {
