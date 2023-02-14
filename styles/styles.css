@@ -135,9 +135,7 @@ body {
 }
 
 .advantages {
-  height: 1154px;
-  margin-bottom: 126px;
-  padding-bottom: 159px;
+
 }
 
 .advantages-content-block {
@@ -178,7 +176,8 @@ body {
 }
 
 .advantages-item {
-  padding: 112.5px 85px 112.5px;
+  padding: 100px 85px;
+  width: 230px;
 }
 
 .content-text {
@@ -195,8 +194,8 @@ body {
 }
 
 .services-item {
+  min-height: 223px;
   width: 230px;
-  height: 223px;
   padding: 81px 85px;
   align-items: center
 }
@@ -222,15 +221,11 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  width: 230px;
 }
 
 .block-description {
   font-size: 18px;
   line-height: 21px;
-  width: 230px;
-  ;
-  height: 63px;
 }
 
 .hotels-search {
@@ -301,7 +296,7 @@ body {
 .social-network {
   display: flex;
   justify-content: space-between;
-  width: 142px;
+  width: 300px;
   list-style: none;
   padding: 0;
 }
@@ -309,6 +304,11 @@ body {
 .social-network-link {
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.html-academy-link {
+  width: 300px;
+  text-align: right;
 }
 
 .tel {
@@ -331,5 +331,6 @@ body {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: fixed;
+  transform: scale(0);
 }
