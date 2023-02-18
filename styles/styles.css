@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -114,6 +122,10 @@ body {
 
 /*---------------------MAIN---------------------*/
 
+.main-page {
+  flex-grow: 1;
+}
+
 .hero {
   background-image: url("../images/index-background.jpg");
   background-position: center;
@@ -132,10 +144,6 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-}
-
-.advantages {
-
 }
 
 .advantages-content-block {
