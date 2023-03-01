@@ -298,13 +298,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 30px 70px;
-
+  width: 1060px;
 }
 
 .social-network {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
+  display: grid;
+  grid-template-columns: 48px 48px 48px;
   list-style: none;
   padding: 0;
 }
@@ -315,7 +314,6 @@ body {
 }
 
 .html-academy-link {
-  width: 300px;
   text-align: right;
 }
 
@@ -324,6 +322,9 @@ body {
   line-height: 40px;
   text-decoration: none;
   color: inherit;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vk {
