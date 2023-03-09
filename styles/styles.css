@@ -246,11 +246,52 @@ body {
   padding: 8px 50px;
 }
 
+.hotels-result {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 70px 80px 70px;
+  border-bottom: 1px solid #E6E6E6;;
+}
+
+.hotel {
+ width: 338.01px;
+ margin: 0;
+ border: 1px solid #E6E6E6;
+ border-radius: 4px;
+ margin-bottom: 20px;
+}
+
+.hotel-plate:not(:nth-child(3)) {
+  margin-right: 20px;
+}
+
+.pages-buttons {
+  display: flex;
+  width: inherit;
+  height: 60px;
+  margin: 0 70px 60px 70px;
+}
+
+.dotted-button {
+  display: block;
+  width: 60px;
+}
+
+.page-button {
+  width: 60px;
+  margin-right: 8px;
+}
+
+.page-button:last-child {
+  margin-left: 8px;
+}
+
+
 /*---------------------FOOTER---------------------*/
 
 .content {
   text-align: center;
-  padding: 258px 258px 104px 258px;
+  padding: 96px 258px 104px 258px;
 }
 
 .content-teased {
