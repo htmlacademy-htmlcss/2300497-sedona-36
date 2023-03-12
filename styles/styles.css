@@ -87,7 +87,7 @@ body {
 }
 
 .button:hover {
-  background-color: #927c71;
+  background-color: #615048;
 }
 
 .button-header {
@@ -136,6 +136,62 @@ body {
   padding: 51px 381px 82px 381px;
 }
 
+.second-hero {
+  background-image: url("/images/second-page-back.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 412px;
+}
+
+.submit-button-search {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  color: #ffffff;
+  border-style: none;
+  padding: 8px 50px 8px 40px;
+  width: 191px;
+  height: 36px;
+}
+
+.submit-button-search:hover {
+  background-color: #68a2cA;
+}
+
+.button-reset {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  border-style: none;
+  padding: 8px 50px 8px 40px;
+  width: 191px;
+  height: 36px;
+}
+
+.button-reset:hover {
+  opacity: 60%;
+}
+
+.search-settings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+}
+
 .main-page {
   text-align: center;
 }
@@ -165,6 +221,7 @@ body {
   width: 100%;
   background-color: #82b3d3;
   color: #ffffff;
+  height: 385px;
 }
 
 .advantages-item-color {
@@ -265,6 +322,12 @@ body {
   margin-right: 20px;
 }
 
+.grid-plate {
+  display: grid;
+  grid-template-areas: "button-plate" "button-like"
+                       "stars" "rating";
+}
+
 .pages-buttons {
   display: flex;
   width: inherit;
@@ -280,10 +343,43 @@ body {
 .page-button {
   width: 60px;
   margin-right: 8px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.page-button:hover {
+  background-color: #f2f2f2;
 }
 
 .page-button:last-child {
   margin-left: 8px;
+}
+
+.button-like {
+  grid-area: button-like;
+  background-color: #82b3d3;
+  padding: 8px, 50px, 8px, 50px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-like:hover {
+  background-color: #68a2ca;
+}
+
+.button-plate {
+  grid-area: button-plate;
+  padding: 8px, 50px, 8px, 50px;
+  font-size: 16px;
+line-height: 20px;
+}
+
+.stars {
+  grid-area: stars;
+}
+
+.rating {
+  grid-area: rating;
 }
 
 
@@ -331,7 +427,7 @@ body {
 }
 
 .submit-button:hover {
-  background-color: #98beda;
+  background-color: #68a2cA;
 }
 
 .footer-links {

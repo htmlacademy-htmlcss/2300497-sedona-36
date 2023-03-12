@@ -45,55 +45,141 @@
       </nav>
     </header>
     <main class="main-page">
-      <header class="hero">
-        <h1 class="visually-hidden">О Седоне.</h1>
-        <img src="images/welcome.svg" width="458" height="352"
-          alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+      <header class="second-hero">
+        <h1>Гостиницы Седоны.</h1>
+        <section class="search-settings">
+          <section class="list">
+            <div>
+              <p>Инфраструктура:</p>
+              <ul>
+                <li>
+                  <label>
+                    <input type="checkbox">
+                  </label>
+                  Бассейн
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox">
+                  </label>
+                  Парковка
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox">
+                  </label>
+                  Wi-Fi
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>Тип жилья:</p>
+              <ul>
+                <li>
+                  <label>
+                    <input type="radio" name="type">
+                  </label>
+                  Гостиница
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="type">
+                  </label>
+                  Мотель
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="type">
+                  </label>
+                  Аппартаменты
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <p>Стоимость, ₽:</p>
+            <label>
+              <input placeholder="от">
+              <input placeholder="до">
+            </label>
+            <button class="submit-button-search">Применить</button>
+            <button class="button-reset">Сбросить</button>
+          </section>
+        </section>
       </header>
       <main>
         <section class="hotels-result">
           <dd class="hotel hotel-plate">
             <dl>
               <img src="images/hotel-1.jpg" width="300px" height="212px" alt="abc">
-              <h1>a</h1>
-              <p>b</p>
-              <button></button>
-              <button></button>
-              <img src="" alt="">
-              <p>Рейтинг</p>
+              <h1>Amara Resort & Spa</h1>
+              <p>Гостиница</p>
+              <p>От 4000 ₽</p>
+              <div class="grid-plate">
+                <button class="button button-plate">подробнее</button>
+                <button class="button button-like">в избранное</button>
+                <div class="stars">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                </div>
+                <p class="rating">Рейтинг: 8,5</p>
+              </div>
             </dl>
           </dd>
           <dd class="hotel hotel-plate">
             <dl>
               <img src="images/hotel-2.jpg" width="300px" height="212px" alt="abc">
-              <h1>a</h1>
-              <p>b</p>
-              <button></button>
-              <button></button>
-              <img src="" alt="">
-              <p>Рейтинг</p>
+              <h1>Villas at Poco Diablo</h1>
+              <p>Гостиница</p>
+              <p>От 5000 ₽</p>
+              <div class="grid-plate">
+                <button class="button button-plate">подробнее</button>
+                <button class="button button-like">в избранное</button>
+                <div class="stars">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                </div>
+                <p class="rating">Рейтинг: 9,2</p>
+              </div>
             </dl>
           </dd>
           <dd class="hotel hotel-plate">
             <dl>
               <img src="images/hotel-3.jpg" width="300px" height="212px" alt="abc">
-              <h1>a</h1>
-              <p>b</p>
-              <button></button>
-              <button></button>
-              <img src="" alt="">
-              <p>Рейтинг</p>
+              <h1>Desert Quail Inn</h1>
+              <p>Гостиница</p>
+              <p>От 2500 ₽</p>
+              <div class="grid-plate">
+                <button class="button button-plate">подробнее</button>
+                <button class="button button-like">в избранное</button>
+                <div class="stars">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                </div>
+                <p class="rating">Рейтинг: 6,9</p>
+              </div>
             </dl>
           </dd>
           <dd class="hotel hotel-plate">
             <dl>
               <img src="images/hotel-4.jpg" width="300px" height="212px" alt="abc">
-              <h1>a</h1>
-              <p>b</p>
-              <button></button>
-              <button></button>
-              <img src="" alt="">
-              <p>Рейтинг</p>
+              <h1>GreenTree Inn</h1>
+              <p>Гостиница</p>
+              <p>От 1500 ₽</p>
+              <div class="grid-plate">
+                <button class="button button-plate">подробнее</button>
+                <button class="button button-like">в избранное</button>
+                <div class="stars">
+                  <img src="images/star.svg" alt="">
+                  <img src="images/star.svg" alt="">
+                </div>
+                <p class="rating">Рейтинг: 5,0</p>
+              </div>
             </dl>
           </dd>
         </section>
