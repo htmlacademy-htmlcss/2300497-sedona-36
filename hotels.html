@@ -47,6 +47,13 @@
     <main class="main-page">
       <header class="second-hero">
         <h1>Гостиницы Седоны.</h1>
+        <div class="back-navigation">
+          <a href="index.html">
+            <img src="/images/home-page-icon.svg" width="13px" height="15px" alt="">
+          </a>
+          <img src="/images/home-page-arrow.svg" width="8px" height="20px" alt="">
+          <p class="word">Гостиницы</p>
+        </div>
         <section class="search-settings">
           <section class="list">
             <div>
@@ -96,14 +103,16 @@
               </ul>
             </div>
           </section>
-          <section>
-            <p>Стоимость, ₽:</p>
-            <label>
+          <section class="price">
+            <label class="price-var">
+              <p>Стоимость, ₽:</p>
               <input placeholder="от">
               <input placeholder="до">
             </label>
-            <button class="submit-button-search">Применить</button>
-            <button class="button-reset">Сбросить</button>
+            <div class="button-hero">
+              <button class="submit-button-search">Применить</button>
+              <button class="button-reset">Сбросить</button>
+            </div>
           </section>
         </section>
       </header>

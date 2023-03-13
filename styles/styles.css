@@ -141,6 +141,8 @@ body {
   background-position: center;
   background-size: cover;
   height: 412px;
+  text-align: left;
+  padding: 40px 70px 70px 70px;
 }
 
 .submit-button-search {
@@ -183,13 +185,40 @@ body {
   opacity: 60%;
 }
 
+.back-navigation {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 10px;
+  height: 21px;
+}
+
+.word {
+  margin: 0;
+
+}
+
 .search-settings {
   display: flex;
-  justify-content: space-between;
 }
 
 .list {
   display: flex;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+.price-var {
+  text-align: left;
+}
+
+.button-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .main-page {
