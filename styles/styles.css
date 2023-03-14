@@ -142,7 +142,25 @@ body {
   background-size: cover;
   height: 412px;
   text-align: left;
-  padding: 40px 70px 70px 70px;
+  padding: 35px 70px 70px 70px;
+  color: #f2f2f2;
+}
+
+.second-page-title {
+  font-family: inherit;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 60px;
+ line-height: 78px;
+ margin: 0;
+}
+
+.secon-page-description {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .submit-button-search {
@@ -199,10 +217,17 @@ body {
 
 .search-settings {
   display: flex;
+  margin: 0;
+  margin-top: 40px;
 }
 
 .list {
   display: flex;
+}
+
+.input-type-choice {
+  margin: 0;
+  margin-right: 70px;
 }
 
 .price {
@@ -211,8 +236,31 @@ body {
   margin-left: auto;
 }
 
+.price-container {
+  display: flex;
+  flex-direction: column ;
+}
+
 .price-var {
   text-align: left;
+}
+
+.input-price-choice:not(:last-child) {
+  margin-right: 70px;
+}
+
+.price-min, .price-max {
+  width: 143px;
+  height: 48px;
+  background: #F2F2F2;
+}
+
+.price-min {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.price-max {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .button-hero {
