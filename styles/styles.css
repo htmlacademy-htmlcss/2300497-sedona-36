@@ -112,7 +112,7 @@ body {
 }
 
 .user-count {
-  font-family: "PT sans";
+  font-family: "PT sans", sans-serif;
   font-size: 10px;
   line-height: 10px;
   color: #ffffff;
