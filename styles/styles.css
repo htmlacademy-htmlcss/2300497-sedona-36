@@ -464,6 +464,10 @@ body {
   margin: 0;
 }
 
+.hotel-photo {
+  margin-top: 20px;
+}
+
 .hotel-plate-price {
   justify-self: right;
   grid-area: hotel-plate-price;
