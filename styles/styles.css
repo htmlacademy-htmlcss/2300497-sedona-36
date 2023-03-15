@@ -148,11 +148,11 @@ body {
 
 .second-page-title {
   font-family: inherit;
- font-style: normal;
- font-weight: 700;
- font-size: 60px;
- line-height: 78px;
- margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
 }
 
 .secon-page-description {
@@ -238,7 +238,7 @@ body {
 
 .price-container {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
 }
 
 .price-var {
@@ -249,7 +249,8 @@ body {
   margin-right: 70px;
 }
 
-.price-min, .price-max {
+.price-min,
+.price-max {
   width: 143px;
   height: 48px;
   background: #F2F2F2;
@@ -384,15 +385,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 40px 70px 80px 70px;
-  border-bottom: 1px solid #E6E6E6;;
+  border-bottom: 1px solid #E6E6E6;
+  ;
 }
 
 .hotel {
- width: 338.01px;
- margin: 0;
- border: 1px solid #E6E6E6;
- border-radius: 4px;
- margin-bottom: 20px;
+  width: 338.01px;
+  margin: 0;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+}
+
+.hotel-name {
+  text-align: left;
+  margin-left: 20px;
 }
 
 .hotel-plate:not(:nth-child(3)) {
@@ -401,8 +409,22 @@ body {
 
 .grid-plate {
   display: grid;
-  grid-template-areas: "button-plate" "button-like"
-                       "stars" "rating";
+  grid-template-areas: "hotel-plate-content hotel-plate-price"
+                       "button-plate button-like"
+                       "stars rating";
+  row-gap: 16px;
+  column-gap: 20px;
+  margin: 16px 20px 20px 20px;
+}
+
+.hotel-plate-content {
+  justify-self: left;
+  grid-area: hotel-plate-content;
+}
+
+.hotel-plate-price {
+  justify-self: right;
+  grid-area: hotel-plate-price;
 }
 
 .pages-buttons {
@@ -440,6 +462,17 @@ body {
   line-height: 20px;
 }
 
+.button-liked {
+  padding: 8px, 50px, 8px, 50px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #7db54f;
+}
+
+.button-liked:hover {
+  background-color: #6c9e42;
+}
+
 .button-like:hover {
   background-color: #68a2ca;
 }
@@ -448,17 +481,27 @@ body {
   grid-area: button-plate;
   padding: 8px, 50px, 8px, 50px;
   font-size: 16px;
-line-height: 20px;
+  line-height: 20px;
 }
 
 .stars {
   grid-area: stars;
+  align-self: center;
+  justify-self: left;
 }
 
 .rating {
   grid-area: rating;
+  background: #f2f2f2;
+  border-radius: 4px;
 }
 
+.button-plate,
+.button-like,
+.rating {
+  width: 140px;
+  height: 36px;
+}
 
 /*---------------------FOOTER---------------------*/
 
