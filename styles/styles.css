@@ -621,14 +621,42 @@ body {
 
 .social-network {
   display: grid;
-  grid-template-columns: 48px 48px 48px;
+  grid-template-areas: "vk telegram youtube";
   list-style: none;
   padding: 0;
 }
 
-.social-network-link {
-  background-position: center;
+.social-network-item {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.youtube {
+  margin: 0;
+}
+
+.vkon {
+  background-image: url(../images/vk.svg);
   background-repeat: no-repeat;
+  width: 25px;
+  height: 15px;
+  background-position: 0 83%;
+}
+
+.teleg {
+  background-image: url(../images/telegram.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  background-position: 0 83%;
+}
+
+.yt {
+  background-image: url(../images/youtube.svg);
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 18px;
+  background-position: 0 83%;
 }
 
 .html-academy-link {
@@ -646,15 +674,20 @@ body {
 }
 
 .vk {
-  background-image: url("../images/vk.svg");
+  grid-area: vk;
 }
 
 .telegram {
-  background-image: url("../images/telegram.svg");
+  grid-area: telegram;
 }
 
 .youtube {
-  background-image: url("../images/youtube.svg");
+  grid-area: youtube;
+}
+
+.visually-hidden {
+
+  transform: scale(1);
 }
 
 .visually-hidden {
